@@ -73,8 +73,8 @@ app.get('/weather', (req, res) => {
                 address: req.query.address
             })
 
-            console.log(location)
-            console.log(forecastData)
+            //console.log(location)
+            //console.log(forecastData)
         })
     })
 
